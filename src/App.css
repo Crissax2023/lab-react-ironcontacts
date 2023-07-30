@@ -36,3 +36,66 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.contact-img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sort-btn,
+.add-btn,
+.delete-btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sort-btn:hover,
+.add-btn:hover,
+.delete-btn:hover {
+  background-color: #0056b3;
+}
+
+.add-btn {
+  background-color: #28a745;
+}
+
+.add-btn:hover {
+  background-color: #1b7e35;
+}
